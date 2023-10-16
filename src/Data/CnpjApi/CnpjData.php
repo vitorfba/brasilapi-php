@@ -63,7 +63,7 @@ class CnpjData extends DataTransfer
         public readonly string $nomeFantasia,
         public readonly int $situacaoCadastral,
         public readonly string $descricaoSituacaoCadastral,
-        public readonly DateTimeImmutable $dataSituacaoCadastral,
+        public readonly ?DateTimeImmutable $dataSituacaoCadastral,
         public readonly int $motivoSituacaoCadastral,
         public readonly DateTimeImmutable $dataInicioAtividade,
         public readonly int $cnaeFiscal,
